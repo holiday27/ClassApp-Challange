@@ -1,0 +1,168 @@
+[
+  {
+    "fullname": "John Doe 1",
+    "eid": 1234,
+    "classes": [
+      "SALA 1",
+      "SALA 2",
+      "SALA 3",
+      "SALA 4",
+      "SALA 5",
+      "SALA 6"
+    ],
+    "addresses": [
+      {
+        "type": "email",
+        "tags": [
+          "RESPONSÁVEL",
+          "PAI"
+        ],
+        "address": "johndoepai1@gmail.com :)"
+      },
+      {
+        "type": "phone",
+        "tags": [
+          "PAI"
+        ],
+        "address": "551122221"
+      },
+      {
+        "type": "phone",
+        "tags": [
+          "RESPONSÁVEL",
+          "MÃE"
+        ],
+        "address": "551138839332"
+      },
+      {
+        "type": "email",
+        "tags": [
+          "MÃE"
+        ],
+        "address": "johndoemae1@gmail.com"
+      },
+      {
+        "type": "email",
+        "tags": [
+          "ALUNO"
+        ],
+        "address": "johndoealuno1@gmail.com"
+      },
+      {
+        "type": "phone",
+        "tags": [
+          "ALUNO"
+        ],
+        "address": "hahaha"
+      },
+      {
+        "type": "email",
+        "tags": [
+          "RESPONSÁVEL",
+          "PAI"
+        ],
+        "address": "johndoepai2@gmail.com"
+      },
+      {
+        "type": "email",
+        "tags": [
+          "RESPONSÁVEL",
+          "PAI"
+        ],
+        "address": "johndoepai3@gmail.com"
+      },
+      {
+        "type": "phone",
+        "tags": [
+          "PAI"
+        ],
+        "address": "5519985504400"
+      },
+      {
+        "type": "phone",
+        "tags": [
+          "RESPONSÁVEL",
+          "MÃE"
+        ],
+        "address": "551138839333"
+      },
+      {
+        "type": "email",
+        "tags": [
+          "MÃE"
+        ],
+        "address": "11 983340440"
+      }
+    ],
+    "invisible": true,
+    "see_all": true
+  },
+  {
+    "fullname": "Mary Doe 2",
+    "eid": 1235,
+    "classes": [
+      "SALA 1"
+    ],
+    "addresses": [
+      {
+        "type": "email",
+        "tags": [
+          "RESPONSÁVEL",
+          "PAI"
+        ],
+        "address": "marydoe1@gmail.com"
+      },
+      {
+        "type": "phone",
+        "tags": [
+          "RESPONSÁVEL",
+          "MÃE"
+        ],
+        "address": "551198334228"
+      }
+    ],
+    "invisible": false,
+    "see_all": false
+  },
+  {
+    "fullname": "Victor Doe 3",
+    "eid": 1236,
+    "classes": [
+      "SALA 6",
+      "SALA 7"
+    ],
+    "addresses": [
+      {
+        "type": "email",
+        "tags": [
+          "RESPONSÁVEL",
+          "PAI"
+        ],
+        "address": "victordoepai1@hotmail.com"
+      },
+      {
+        "type": "email",
+        "tags": [
+          "MÃE"
+        ],
+        "address": "victordoe3@gmail.com"
+      },
+      {
+        "type": "email",
+        "tags": [
+          "ALUNO"
+        ],
+        "address": "victordoe3@gmail.com"
+      },
+      {
+        "type": "phone",
+        "tags": [
+          "ALUNO"
+        ],
+        "address": "551974430033"
+      }
+    ],
+    "invisible": false,
+    "see_all": false
+  }
+]
