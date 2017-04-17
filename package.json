@@ -1,0 +1,11 @@
+{
+  "name": "classapp_challange",
+  "version": "1.0.0",
+  "description": "input.csv to ouput.json",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "igorMatsuzaki",
+  "license": "ISC"
+}
