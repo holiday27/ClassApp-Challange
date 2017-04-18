@@ -7,5 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "igorMatsuzaki",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "fast-csv": "^2.4.0",
+    "google-libphonenumber": "^2.0.14",
+    "lodash": "^4.17.4",
+    "schema-inspector": "^1.6.8"
+  }
 }

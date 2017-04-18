@@ -1,18 +1,15 @@
-/* API imported
-	fast-csv,
-	schema-inspector,
-	lodash
+/*
+	ClassApp
+	Dev Challenge
+	Create a program in Node.js where the input defined in input.csv is parsed and organized into the content shown in output.json.
+	JSON order is not important, but content is. Don't hard code the tags shown, meaning tags could be changed to "email Tio, Reponsável, Financeiro" and it would still parse accordingly.
+	Some libraries that may be useful, but not required: https://lodash.com/ http://atinux.github.io/schema-inspector/ https://www.npmjs.com/package/google-libphonenumber
 */
-
 
 var fs = require('fs');
 var inspector = require('schema-inspector');
-// Require `PhoneNumberFormat`. 
 var PNF = require('google-libphonenumber').PhoneNumberFormat;
-// Get an instance of `PhoneNxumberUtil`. 
 var phoneUtil = require('google-libphonenumber').PhoneNumberUtil.getInstance();
-
-
 var country = 'BR';
 var arrayTittle = '';
 var listObjectAttribute = '';
@@ -44,7 +41,7 @@ function readInput(){
 	//import File System
 	
 	var csv = require('fast-csv');
-	var stream = fs.createReadStream("input2.csv");	
+	var stream = fs.createReadStream("input.csv");	
 	var flagTittle = true;
 
 	var csvStream = csv()
@@ -126,6 +123,7 @@ function normalizationCSV(){
 
 function writeOuputCSV(data){
 	fs.writeFileSync('ouput.json',JSON.stringify(data, null, 2), 'utf8');
+	console.log(JSON.stringify(data,null,2));
 	console.log('done');
 }
 
